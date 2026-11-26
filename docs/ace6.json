@@ -1,0 +1,68 @@
+{
+  "device": "PLQ110",
+  "model": "OnePlus Ace 6",
+  "codename": "ossi",
+  "platform": "sun",
+  "generated": "2026-11-26",
+  "note": "Anti-rollback is read from the xbl_config partition, not from vbmeta's rollback_index: every package of this phone carries 4 there, which reads as no restriction at all. A phone whose ARB is 1 refuses any package whose ARB is 0, and there is no fastboot and no EDL to come back from that.",
+  "device_arb_at_generation": 1,
+  "arb_boundary": "16.0.5.700",
+  "packages": [
+    {
+      "version": "ColorOS PLQ110_17.0.1.200(CN01)",
+      "short": "17.0.1.200",
+      "os": "ColorOS 17",
+      "arb": 1,
+      "safe": true,
+      "measured": true
+    },
+    {
+      "version": "ColorOS PLQ110_17.0.0.104(CN01)",
+      "short": "17.0.0.104",
+      "os": "ColorOS 17",
+      "arb": 1,
+      "safe": true,
+      "measured": true
+    },
+    {
+      "version": "ColorOS PLQ110_16.0.10.500(CN01)",
+      "short": "16.0.10.500",
+      "os": "ColorOS 16",
+      "arb": 1,
+      "safe": true,
+      "measured": true
+    },
+    {
+      "version": "ColorOS PLQ110_16.0.9.402(CN01)",
+      "short": "16.0.9.402",
+      "os": "ColorOS 16",
+      "arb": 1,
+      "safe": true,
+      "measured": false
+    },
+    {
+      "version": "ColorOS PLQ110_16.0.9.401(CN01)",
+      "short": "16.0.9.401",
+      "os": "ColorOS 16",
+      "arb": 1,
+      "safe": true,
+      "measured": false
+    },
+    {
+      "version": "ColorOS PLQ110_16.0.8.300(CN01)",
+      "short": "16.0.8.300",
+      "os": "ColorOS 16",
+      "arb": 1,
+      "safe": true,
+      "measured": false
+    }
+  ],
+  "refused": [
+    { "version": "ColorOS PLQ110_16.0.3.502(CN01)", "arb": 0 },
+    { "version": "ColorOS PLQ110_16.0.2.403(CN01)", "arb": 0 },
+    { "version": "ColorOS PLQ110_16.0.2.402(CN01)", "arb": 0 },
+    { "version": "ColorOS PLQ110_16.0.1.302(CN01)", "arb": 0 },
+    { "version": "ColorOS PLQ110_16.0.0.207(CN01)", "arb": 0 },
+    { "version": "ColorOS PLQ110_16.0.0.205(CN01)", "arb": 0 }
+  ]
+}
